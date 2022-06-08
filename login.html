@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            background-image: linear-gradient(to bottom right, rgb(124, 35, 159),white);
+        } */
+        .container{
+            width:500px;
+            margin:auto;
+            margin-top:30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* border:1px solid; */
+            padding:30px;
+        border-radius: 20px;
+        }
+        .container>h1{
+            text-align:center;
+            margin:auto;
+            margin-top:20px;
+            /* border:1px solid; */
+            
+        }
+
+        .container>h1+input{
+            display: block;
+           margin:auto;
+            height:50px;
+            width:60%;
+            padding:10px;
+            border:none;
+            border-bottom:1px solid;
+
+            margin-top:40px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .container>h1+input+input{
+            display: block;
+            margin:auto;
+            height:50px;
+            padding:10px;
+            width:60%;
+            border:none;
+            border-bottom:1px solid;
+            margin-top:20px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .container>h1+input+input+button{
+            
+            display:block;
+            margin:auto;
+            margin-top:40px;
+            width:65%;
+            height:60px;
+            background-color:blueviolet;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            font-size:20px;
+            color:white;
+            border:none;
+            cursor:pointer;
+            
+        }
+
+        p{
+            display:flex;
+            justify-content: center;
+            margin:auto;
+            margin-top:15px;
+        }
+
+        span{
+            color:blue;
+            cursor:pointer;
+        }
+        button+div{
+            margin:auto;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1>Login</h1>
+      <input type="email" placeholder="Enter Your mail"/>
+        <input type="password" placeholder="Enter Your password"/>
+        <button>Login</button>
+        <div>
+        <p>Forget <span>Password?</span> </p>
+        <p>Dont have an account?<span>sign up</span></p>
+        </div>
+    </div>
+</body>
+</html>
